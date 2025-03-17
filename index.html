@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Define que o documento é HTML5 e o idioma principal é português do Brasil -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 para suportar acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a responsividade da página -->
+    <link rel="stylesheet" href="./style.css"> <!-- Importa o arquivo CSS para estilizar a página -->
+    <title>Selmo´s Refri</title> <!-- Define o título da aba do navegador -->
+</head>
+
+<body>
+    <main> <!-- Elemento principal que agrupa o conteúdo principal da página -->
+
+        <!-- Primeira opção: Morango -->
+        <div class="item active" style="--background: #EA3D41"> <!-- Cada "item" representa um sabor, o primeiro começa como ativo -->
+            <div class="title">Strawberry</div> <!-- Nome do sabor -->
+            <img src="./img/Morango-refrigerante-foregroundBlur.png" alt="strawberry" class="fruit"> 
+            <!-- Imagem da fruta com efeito de desfoque -->
+            <img src="./img/Morango-refrigerante.png" alt="morango" class="refri">
+            <!-- Imagem da lata do refrigerante -->
+        </div>
+
+        <!-- Segunda opção: Abacate -->
+        <div class="item" style="--background: #2D5643">
+            <div class="title">Avocado</div> <!-- Nome do sabor -->
+            <img src="./img/Abacate-refrigerante-foregroundBlur.png" alt="avocado" class="fruit">
+            <img src="./img/Abacate-refrigerante.png" alt="avocado" class="refri">
+        </div>
+
+        <!-- Terceira opção: Laranja -->
+        <div class="item" style="--background: #E7A043">
+            <div class="title">Orange</div> <!-- Nome do sabor -->
+            <img src="./img/Laranja-refrigerante-foregroundBlur.png" alt="orange" class="fruit">
+            <img src="./img/Laranja-refrigerante.png" alt="morango" class="refri">
+        </div>
+
+        <!-- Botões de navegação para alternar entre os sabores -->
+        <div class="arrow">
+            <button id="prev"><</button> <!-- Botão para ir para o sabor anterior -->
+            <button id="next">></button> <!-- Botão para ir para o próximo sabor -->
+        </div>
+
+    </main>
+
+</body>
+
+<!-- Importa o script JavaScript que adiciona funcionalidades à página -->
+<script src="./scripts.js"></script>
+
+</html>
