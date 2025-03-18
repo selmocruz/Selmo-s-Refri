@@ -1,13 +1,14 @@
 # Selmo's Refri - Apresentação Interativa de Sabores
 
-![image](https://github.com/user-attachments/assets/b6188548-64bb-4680-b8a2-6527392e0306)
+
 
 
 Este projeto é uma página web interativa que apresenta diferentes sabores de refrigerante de forma visualmente atraente, utilizando HTML, CSS e JavaScript.
 
-## Capturas de Tela
+## Imagens do Projeto
 
-[Insira aqui capturas de tela ou um GIF do projeto]
+![image](https://github.com/user-attachments/assets/b6188548-64bb-4680-b8a2-6527392e0306)
+![Screenshot_2](https://github.com/user-attachments/assets/6d9daf28-76da-49f8-91fb-8fb7c29362a7)
 
 ## Funcionalidades
 
